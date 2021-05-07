@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color : #000080;
+	
+}
+.nav {
+	background-color: #6495ED;
+	color: #000000;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 20px 0;
+}
+
+.nav > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	font-size: 20px;
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav > li > a:hover {
+	color: #87CEFA;
+	cursor: pointer;
+}
+
+.logo {
+	color:#000000;
+	float: left;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.logo > a {
+	text-decoration: none;
+	color: #000000
+}
+
+.text {
+	padding-left: 100px;
+	padding-right: 100px;
+	color: #000000;
+}

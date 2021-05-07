@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>    
+<head> 
+	<title>LFIscalité - contact</title> 
+	<link rel="stylesheet" type="text/css" href="style-contact.css">
+</head>
+
+<body>
+
+
+		<ul class="nav">
+		
+			<div class="logo">
+				<a href="D:\Collège\H-G\LFIscalité\Site web\index.html"> LFIscalité </a>
+			</div>
+			
+			<li><a href="D:\Collège\H-G\LFIscalité\Site web\index.html">Accueil</a></li>
+			<li><a href="D:\Collège\H-G\LFIscalité\Site web\breaking-news.html">Live News</a></li>
+			<li><a href="D:\Collège\H-G\LFIscalité\Site web\contact.html">Contact</a></li>
+			<li><a href="D:\Collège\H-G\LFIscalité\Site web\a-propos.html">A propos</a></li>
+		</ul>
+
+	<div class="contact-title">
+		<h1> Contactez nous !</h1>
+		<h2>Le formulaire de contact peut être parfaitement anonyme, il suffit de mettre une adresse et un nom factice!</h2>
+	</div>
+
+	<div class="contact-form">
+		<form id="contact-form" method="post" action="contact-form-handler.php">
+		<input name="name" type="text" class="form-control" placeholder="Votre Nom" required><br>
+		<input name="email" type="email" class="form-control" placeholder="Votre Email" required><br>
+		
+			<textarea name="message" class="form-control" placeholder="Message" row="8" required></textarea><br>
+			
+			<input type="submit" class="form-control submit" value="ENVOYER LE MESSAGE">
+			
+		</form>
+	</div>
+
+</body>
+</html>
+
