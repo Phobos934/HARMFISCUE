@@ -50,7 +50,7 @@ body {
 	text-justify: inter-word;
 }
 
-.images {
+.image > article-image {
 	float: center;
 }
 
