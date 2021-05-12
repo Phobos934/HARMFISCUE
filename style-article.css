@@ -51,7 +51,8 @@ body {
 	text-justify: inter-word;
 }
 
-.image > article-image {
+.image > .article-image {
 	float: center;
+	width: 60%;
 }
 
