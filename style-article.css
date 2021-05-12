@@ -47,5 +47,10 @@ body {
 	padding: 20px 100px 20px 100px;
 	text-align: justify;
 	text-justify: inter-word;
+}
 
+
+.images {
+	float: center;
+	width: 60%;
 }
